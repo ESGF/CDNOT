@@ -28,11 +28,15 @@ also configured via the publisher in esg.ini
         
 4. If you have both restricted and unrestricted data, you'll need to 
    (a) ensure the `Alias` paths above go to your unrestricted data
-       ```
+   
+   ```
         Alias "/thredds/fileServer/esg_dataroot/CMIP6" "/esg/data/CMIP6"
-        
-   (b) add `ProxyPass` directives for restricted data, eg
-       ```
+   ```
+   
+  (b) add `ProxyPass` directives for restricted data, eg
+   
+   ```
         Alias "/thredds/fileServer/esg_dataroot/cordex" "/esg/data/cordex"
-        
-5. restart httpd
+   ```
+   
+  5. restart httpd
