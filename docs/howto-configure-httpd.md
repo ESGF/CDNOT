@@ -36,7 +36,8 @@ also configured via the publisher in esg.ini
   (b) add `ProxyPass` directives for restricted data, eg
    
    ```
-        Alias "/thredds/fileServer/esg_dataroot/cordex" "/esg/data/cordex"
+        ProxyPass /thredds/fileServer/esg_dataroot/cordex ajp://127.0.0.1:8223/thredds/fileServer/esg_dataroot/cordex
+        ProxyPassReverse /thredds/fileServer/esg_dataroot/cordex ajp://127.0.0.1:8223/thredds/fileServer/esg_dataroot/cordex       
    ```
    
   5. restart httpd
