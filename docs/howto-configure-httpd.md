@@ -41,3 +41,19 @@ also configured via the publisher in esg.ini
    ```
    
   5. restart httpd
+
+## Going further: catalogs
+
+You may want to disable catalogs for external access, but enabled for internal.  Use this rule:
+
+```
+  <Location /thredds/catalog*>
+         Require ip 10 198.128.245 128.115.184 128.115.57 128.15
+         ErrorDocument 403 "Thredds catalogs are temporarily disabled"
+ </Location>
+```
+
+To disable catalog access altogether, remove the ProxyPass rule from (2), then add this rule:
+```
+        AliasMatch "^/thredds/catalog.*$" "/var/www/html/catalog.html"
+```
