@@ -1,5 +1,5 @@
-The esgcet package for ESGF Publication
-=======================================
+ESGF Documentation
+==================
 
 .. toctree::
    :maxdepth: 2

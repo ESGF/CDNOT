@@ -1,10 +1,6 @@
 
-----
 
 layout: default
-
-title: Software
----------------
 
 Welcome to ESGF Software and Services
 -------------------------------------
