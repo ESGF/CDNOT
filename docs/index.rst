@@ -13,6 +13,7 @@ ESGF Documentation
    deploy-ansible
    howto-configure-httpd
    idp-registration
+   idp_user_accounts
 
 This is a collection of useful documentation for the `ESGF
 <https://esgf-node.llnl.gov/projects/esgf-llnl/>`_ search database.
