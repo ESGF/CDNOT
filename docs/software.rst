@@ -121,21 +121,13 @@ ESGF data publisher
 
 * **Main Page: (user documentation)**
 
-  * http://esgf.github.io/esg-publisher/
+  * https://esg-publisher.readthedocs.io/en/refactor/
 
-* **Prerequisite:**
+* **Recently Updated**
 
-  * Publishers to ESGF must have an existing Data Node installed at their site.  
-
-* **Installation: (Python3 recommended)**
-
-  * https://github.com/ESGF/esg-publisher/tree/python3 
-
-* **Next generation publisher: (v5 Alpha version)**
-
-  * This version is compatible with the current and next-generation ESGF Archtectures 
-  * https://esg-publisher.readthedocs.io/en/gen-five-pkg/
-  * The Next-gen (v5) Publisher can be run external to the Data Node, but the data to be published must be locally accessible on your linux file system.
+  * The new publisher for ESGF data is available for install via conda (stable version) or by cloning our `git repository <https://github.com/lisi-w/esg-publisher/tree/refactor>`_ (latest version).
+  * The newly updated (v5) Publisher can be run external to the Data Node, but the data to be published must be locally accessible on your linux file system.
+  * For other details about the new publisher and help getting started, see our docs.
 
 * **Issues:**
 
