@@ -139,51 +139,6 @@ ESGF data publisher
 
 **For Data Preparation**\ , our collaborators at IPSL provide the `Pre-publication Tools <https://esgf.github.io/esgf-prepare>`_ for a number of ongoing ESGF data projects.  
 
-Data Analysis tools
-^^^^^^^^^^^^^^^^^^^
-
-*Community Data Analysis Tools (CDAT)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-* **Description:** CDAT is a powerful and complete front-end to a rich set of visual-data exploration and analysis capabilities well suited for data analysis problems.
-* **Use Cases:**
-
-  * I want to perform data analysis of multi-dimensional gridded climate and simulation data
-  * I want to visualize data through graphical plots of gridded data
-
-* **Main Page:** https://github.com/CDAT/cdat/wiki
-* **Installation:** https://github.com/CDAT/cdat/wiki/install
-* **Documentation:**
-
-  * Getting started: https://cdat.llnl.gov/getting_started.html 
-  * Notebook Tutorials: https://cdat.llnl.gov/tutorials.html 
-
-* **Support**
-
-  * Contact: https://cdat.llnl.gov/contact.html 
-  * Github Issues: https://github.com/CDAT/cdat/issues
-
-*Visual Community Data Analysis Tools (VCDAT)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-* **Description:** VCDAT is a `JupyterLab <https://jupyterlab.readthedocs.io/en/stable/>`_ extension that provides a graphical user interface to CDAT. Specifically, it allows users to load, manipulate and plot large data sets within `Jupyter Notebooks <https://jupyter.org/>`_ through the tools and libraries provided by CDAT. 
-* **Use Cases:**
-
-  * I want to run CDAT analysis and visualization within an interactive JupyterLab environment
-  * I want to perform common CDAT analysis and visualization tasks through a user interface
-
-* **Main Page:** https://github.com/CDAT/jupyter-vcdat/wiki
-* **Installation:** https://github.com/CDAT/jupyter-vcdat/wiki/Deploy
-* **Documentation**
-
-  * Getting Started: https://github.com/CDAT/jupyter-vcdat/wiki/Getting-Started
-  * FAQ: https://github.com/CDAT/jupyter-vcdat/wiki/FAQ
-
-* **Support:**
-
-  * Github Issues: https://github.com/CDAT/jupyter-vcdat/issues 
 
 *ESGF Compute end-user API (esgf-compute-api)*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
