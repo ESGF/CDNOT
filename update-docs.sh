@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=/home/ewitham/cdnot-lw/docs
+BASEDIR=/export/witham3/cdnot/docs
 REPOS=/export/witham3/docs-repos
 
 bash update-repo.sh $REPOS/esgf-docker/docs deploy-ansible.md

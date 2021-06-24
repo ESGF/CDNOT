@@ -1,12 +1,11 @@
 #!/bin/bash
 
-# bash ~/esgf/conda.sh
-# . ~/.bashrc
-eval "$(conda shell.bash hook)"
+bash ~/esgf/conda.sh
+. ~/.bashrc
 conda activate docs
 REPO=$1
 FILE=$2
-BASEDIR=/home/ewitham/cdnot-lw/docs
+BASEDIR=/export/witham3/cdnot/docs
 
 cd $REPO
 git pull
