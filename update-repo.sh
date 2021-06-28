@@ -20,7 +20,7 @@ then
   cd $BASEDIR
   git add $RSTFILE
   commitstr="updated $RSTFILE"
-  git commit -m $commitstr
+  git commit -m "$commitstr"
   git push origin master
 fi
 
