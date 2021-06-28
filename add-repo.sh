@@ -3,6 +3,11 @@
 BASEDIR=/export/witham3/cdnot/docs
 REPODIR=/export/witham3/docs-repos
 REPOURL=$1
+if [ -z "$1"]
+then
+  echo "No repository supplied"
+  exit 0
+fi
 REPOGIT=${REPOURL##*/}
 REPO="${REPOGIT%.*}"
 TEMPLATE="for FILE in $REPO/docs/*
