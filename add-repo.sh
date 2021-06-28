@@ -3,6 +3,8 @@
 BASEDIR=/export/witham3/cdnot/docs
 REPODIR=/export/witham3/docs-repos
 REPOURL=$1
+WD=$(pwd)
+export SSH_ASKPASS=$WD/ssh_password.sh
 if [ -z "$1"]
 then
   echo "No repository supplied"
