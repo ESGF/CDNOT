@@ -4,7 +4,6 @@ BASEDIR=/export/witham3/cdnot/docs
 REPODIR=/export/witham3/docs-repos
 REPOURL=$1
 WD=$(pwd)
-export SSH_ASKPASS=$WD/ssh_password.sh
 if [ -z "$1"]
 then
   echo "No repository supplied"
@@ -38,3 +37,6 @@ else
   sed -i '/idp_user_accounts/ a \   $BASEFN' $BASEDIR/index.rst
 fi
 cd $BASEDIR
+git add index.rst .index.rst.bak
+git commit -m "updated toc tree"
+SSH_ASKPASS=$WD/ssh_password.sh git push origin master

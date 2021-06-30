@@ -6,6 +6,7 @@ conda activate docs
 REPO=$1
 FILE=$2
 BASEDIR=/export/witham3/cdnot/docs
+WD=$(pwd)
 
 cd $REPO
 git pull
@@ -21,7 +22,7 @@ then
   git add $RSTFILE
   commitstr="updated $RSTFILE"
   git commit -m "$commitstr"
-  git push origin master
+  SSH_ASKPASS=$WD/ssh_password.sh git push origin master
 fi
 
 cd $BASEDIR
