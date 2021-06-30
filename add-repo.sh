@@ -16,14 +16,23 @@ do
   bash update-repo.sh $REPO \$fn
 done"
 
+cp $BASEDIR/index.rst $BASEDIR/.index.rst.bak
+
 cd $REPODIR
 git clone $REPOURL
 
 if [ -z "$2" ]
 then
   echo "$TEMPLATE" >> update-docs.sh
+  for FILE in $REPO/docs/*
+  do
+    BASEFN="${FILE%.*}"
+    sed -i '/idp_user_accounts/ a \   $BASEFN' $BASEDIR/index.rst
+  done
 else
   FN=$2
   echo "bash update-repo.sh $REPO $FN" >> update-docs.sh
+  BASEFN="${FN%.*}"
+  sed -i '/idp_user_accounts/ a \   $BASEFN' $BASEDIR/index.rst
 fi
 cd $BASEDIR
