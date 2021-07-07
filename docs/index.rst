@@ -14,6 +14,7 @@ ESGF Documentation
    howto-configure-httpd
    idp-registration
    idp_user_accounts
+   contributing
 
 This is a collection of useful documentation for the `ESGF
 <https://esgf-node.llnl.gov/projects/esgf-llnl/>`_ search database.
