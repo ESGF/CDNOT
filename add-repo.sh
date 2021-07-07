@@ -39,4 +39,4 @@ fi
 cd $BASEDIR
 git add index.rst .index.rst.bak
 git commit -m "updated toc tree"
-SSH_ASKPASS=$WD/ssh_password.sh git push origin master
+echo "New changes to CDNOT docs, review and push." | sendmail witham3@llnl.gov 

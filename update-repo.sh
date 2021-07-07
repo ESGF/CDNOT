@@ -22,7 +22,7 @@ then
   git add $RSTFILE
   commitstr="updated $RSTFILE"
   git commit -m "$commitstr"
-  SSH_ASKPASS=$WD/ssh_password.sh git push origin master
+  echo "New changes to CDNOT docs, review and push." | sendmail witham3@llnl.gov 
 fi
 
 cd $BASEDIR
