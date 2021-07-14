@@ -1,7 +1,7 @@
 #!/bin/bash
 
-BASEDIR=/export/witham3/cdnot/docs
-REPOS=/export/witham3/docs-repos
+BASEDIR=~/cdnot/docs
+REPOS=~/docs-repos
 
 bash update-repo.sh $REPOS/esgf-docker/docs deploy-ansible.md
 for FILE in $REPOS/esgf-docker/docs/kubernetes/*

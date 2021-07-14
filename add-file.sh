@@ -1,7 +1,7 @@
 #!/bin/bash
 
-BASEDIR=/export/witham3/cdnot/docs
-REPODIR=/export/witham3/docs-repos
+BASEDIR=~/cdnot/docs
+REPODIR=~/docs-repos
 REPO=$1
 WD=$(pwd)
 if [ -z "$1"]

@@ -1,11 +1,12 @@
 #!/bin/bash
 
-bash ~/esgf/conda.sh
+ENV=docs
+bash ./conda.sh
 . ~/.bashrc
-conda activate docs
+conda activate $ENV
 REPO=$1
 FILE=$2
-BASEDIR=/export/witham3/cdnot/docs
+BASEDIR=~/cdnot/docs
 WD=$(pwd)
 
 cd $REPO
