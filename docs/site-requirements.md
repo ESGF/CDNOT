@@ -58,7 +58,10 @@ their supported data projects.
 
 ## Tier-3 sites
 
-Tier-3 sites effectively provide _replicas_ of CMIP6 datasets originally published.  
+Tier-3 sites effectively provide _replicas_ of CMIP6 datasets originally published to ESGF sites.  However these replicas are reformatted to something other than netCDF.  Several examples that we are use the Zarr format for the data placed in cloud-based object storage.  
+
+### Responsibilities for Tier-3 sites
+
 - Identify a site contact to be subscribed to the CDNOT list.
 - Documentatio to refer users to official CMIP6 information so the users have an understanding of where to find metadata, eg PIDs, citiations, ES-DOC errata.
 - See Replica management guidelines for Tier-1 sites.  Consider that the Tier-3 site may not use an ESGF replica index so utilties eg reference implementations that compare esg-search records across indexes (original vs replica) would not apply in these cases so it is the responsibility of the site manager to develop procedures for this. 
