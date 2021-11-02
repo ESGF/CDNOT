@@ -1,10 +1,13 @@
 # Requirements of sites hosting CMIP data
 
+## Introduction
+
+Sites that host CMIP6 data have originally consisted entirely of ESGF sites.  This notion has evolved with the advent of cloud-friendly storage.
 
 ESGF consists of data infrastructure nodes of different complexity. In this document, two classes are distinguished: Tier-1 and 2 node sites. Tier 1 and Tier 2 nodes imply different requirements with respect to the ESGF infrastructure itself and with respect to ESGF data projects like CMIP6. The ESGF infrastructure requirements relate to node functionality, provided services and service levels in development, maintenance and operation. ESGF data project requirements focus more on physical infrastructure components adapted to the data project requirements.
 In what follows, the requirements are formulated in more generic rather than concrete terms. In the case of CMIP6, data project node requirements for Tier 1 and Tier 2 sites contain concrete specifications as much as possible.
 
-In addition to the ESGF Tiers, we identify a "Tier-3" for sites that make data available through means other than ESGF access.  For example, a project may rewrite CMIP6 datasets in Zarr format and store in S3.  This is done as part of the AWS 
+In addition to the ESGF Tiers, we identify a "Tier-3" for sites that make data available through means other than ESGF access.  For example, a project may rewrite CMIP6 datasets in Zarr format and store in S3 as done with an offering AWS cloud storage offering. 
 
 
 ## Tier-1 sites
@@ -58,7 +61,10 @@ their supported data projects.
 
 ## Tier-3 sites
 
-Tier-3 sites effectively provide _replicas_ of CMIP6 datasets originally published.  
+Tier-3 sites effectively provide _replicas_ of CMIP6 datasets originally published to ESGF sites.  However these replicas are reformatted to something other than netCDF.  Several examples that we are use the Zarr format for the data placed in cloud-based object storage.  
+
+### Responsibilities for Tier-3 sites
+
 - Identify a site contact to be subscribed to the CDNOT list.
 - Documentatio to refer users to official CMIP6 information so the users have an understanding of where to find metadata, eg PIDs, citiations, ES-DOC errata.
 - See Replica management guidelines for Tier-1 sites.  Consider that the Tier-3 site may not use an ESGF replica index so utilties eg reference implementations that compare esg-search records across indexes (original vs replica) would not apply in these cases so it is the responsibility of the site manager to develop procedures for this. 
