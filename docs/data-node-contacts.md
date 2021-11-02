@@ -1,6 +1,6 @@
 | Data node                 | Main contact; Node manager                                     | Other contacts                                                                                                                                | Tier 1 or Tier 1 support node |   |
 |---------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|---|
-| aims3.llnl.gov            | Nathan Carlson carlson60@llnl.gov                              | Sasha Ames ames4@llnl.gov                                                                                                                     | LLNL                          |   |
+| aims3.llnl.gov            | Sasha Ames ames4@llnl.gov                                      | Tony Hoang hoang1@llnl.gov                                                                                                                     | LLNL                          |   |
 | cmip.bcc.cma.cn           | yanjh@cma.gov.cn                                               | twwu@cma.gov.cn                                                                                                                               |                               |   |
 | cmip.dess.tsinghua.edu.cn | Dr. Yuqi BAI:  yuqibai@tsinghua.edu.cn                         | Mr. Yufu LIU: liuyufu18@mails.tsinghua.edu.cn                                                                                                 |                               |   |
 | cmip.fio.org.cn           | Dr. Xinfang LI: lixinfang@fio.org.cn                           |                                                                                                                                               |                               |   |
@@ -16,9 +16,9 @@
 | esgf-ictp.hpc.cineca.it   | Marco Rorro (m.rorro@cineca.it)                                |                                                                                                                                               | IPSL                          |   |
 | esgf-cnr.hpc.cineca.it    | Paolo Davini (p.davini@isac.cnr.it)                            | Marco Rorro (m.rorro@cineca.it), Jost von Hardenberg (j.vonhardenberg@isac.cnr.it)                                                            |                               |   |
 | esgf-data.ucar.edu        | Eric Nienhouse ejn@ucar.edu                                    | sasha@llnl.gov                                                                                                                                | LLNL                          |   |
-| esgf-data1.llnl.gov       | Nathan Carlson carlson60@llnl.gov                              | Sasha Ames ames4@llnl.gov                                                                                                                     | LLNL                          |   |
+| esgf-data1.llnl.gov       | Sasha Ames ames4@llnl.gov                                      | Tony Hoang hoang1@llnl.gov                                                                                                                    | LLNL                          |   |
 | esgf-data2.diasjp.net     | Toshihiro NEMOTO <nemoto@tkl.iis.u-tokyo.ac.jp>                | sasha@llnl.gov                                                                                                                                |                               |   |
-| esgf-data3.ceda.ac.uk     | Alan Iwi (alan.iwi@stfc.ac.uk)                                 | Replication: Ruth Petrie (ruth.petrie@stfc.ac.uk) ; Data transfer/Globus: Matt Pritchard (matt.pritchard.stfc.ac.uk) ; ag.stephens@stfc.ac.uk | CEDA                          |   |
+| esgf-data3.ceda.ac.uk     | Alan Iwi (alan.iwi@stfc.ac.uk)                                 | Data transfer/Globus: Matt Pritchard (matt.pritchard.stfc.ac.uk) ; ag.stephens@stfc.ac.uk | CEDA                          |   |
 | esgf-node.cmcc.it         | Giuseppe Calo' (esgf@cmcc.it)                                  | Alessandra Nuzzo (alessandra.nuzzio@cmcc.it), Maria Mirto (maria.mirto@cmcc.it), Sandro Fiore (sandro.fiore@cmcc.it)                          | IPSL                          |   |
 | esgf-node2.cmcc.it        | Giuseppe Calo' (esgf@cmcc.it)                                  | Alessandra Nuzzo (alessandra.nuzzio@cmcc.it), Maria Mirto (maria.mirto@cmcc.it), Sandro Fiore (sandro.fiore@cmcc.it)                          | IPSL                          |   |
 | esgf.anl.gov              | Lukasz Lacinski (lukasz@uchicago.edu)                          |                                                                                                                                               | LLNL                          |   |
@@ -30,3 +30,13 @@
 | vesg.ipsl.upmc.fr         | Pierre Logerais (plogerais@ipsl.fr)                            | Guillaume Levavasseur (glipsl@ipsl.fr)                                                                                                        | IPSL                          |   |
 | esgf.nci.org.au           | Ben Evans (Ben.Evans@anu.edu.au)                               | help@nci.org.au (include 'ESGF' in subject)                                                                                                   | NCI                           |   |
 | dmiesgf1.dmi.dk           | Marianne S. Madsen (msm@dmi.dk)                                | Shuting Yang (shuting@dmi.dk)                                                                                                                 |                               |   |
+| esgf-data.csc.fi		| mikko.aalto@fmi.fi		| 	| 	LiU	| 	| 
+| esgf-nimscmip6.apcc21.org		| Jaehee Lee "이재희" <jhlee0@korea.kr>		| 	| 	LLNL	| 	| 
+| esgf.rcec.sinica.edu.tw	| 	Gong-Do Hwang <gdhwang@gate.sinica.edu.tw>	| 		| 	DKRZ	| 	| 
+| polaris.pknu.ac.kr		| 	ypark@kiost.ac.kr 	| 	| 	LLNL	| 	| 
+| esgf.dwd.de		|  <esgf.service@dwd.de>		| 	| 	DKRZ	| 	| 
+| **Cordex data nodes**	 	| 	| 	| 	| 		
+| cordexesg.dmi.dk		| 	| 		| 	DKRZ	| 	
+| data.meteo.unican.es	| 	Antonio Confinio		| 	IPSL	| 	| 
+| esgf.apcc21.org	| 	Jaehee Lee "이재희" <jhlee0@korea.kr>		| 	LiU	| 	| 
+| esg-dn1.ru.ac.th	|  Ratchanan Srisawadwong<nick.ratchanan@gmail.com> | 	Kamphol Promjiraprawat<kamphol.prom@gmail.com>	| LiU | | 
