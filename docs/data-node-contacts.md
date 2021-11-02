@@ -37,6 +37,6 @@
 | esgf.dwd.de		|  <esgf.service@dwd.de>		| 	| 	DKRZ	| 	| 
 | **Cordex data nodes**	 	| 	| 	| 	| 		
 | cordexesg.dmi.dk		| 	| 		| 	DKRZ	| 	
-| data.meteo.unican.es	| 	Antonio Confinio		| 	IPSL	| 	| 
-| esgf.apcc21.org	| 	Jaehee Lee "이재희" <jhlee0@korea.kr>		| 	LiU	| 	| 
+| data.meteo.unican.es	| 	Antonio Confinio		| 	| 	IPSL	| 	| 
+| esgf.apcc21.org	| 	Jaehee Lee "이재희" <jhlee0@korea.kr>	| 		| 	LiU	| 	| 
 | esg-dn1.ru.ac.th	|  Ratchanan Srisawadwong<nick.ratchanan@gmail.com> | 	Kamphol Promjiraprawat<kamphol.prom@gmail.com>	| LiU | | 
