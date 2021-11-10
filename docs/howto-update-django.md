@@ -16,10 +16,10 @@ If you have followed the procedure, you will have generated a new conda environm
     conda activate cog_py3
     #  stop the service
     /etc/cog-wsgi/8889/apachectl -k stop
-    # use pip to upgrade Django to the 
+    # use pip to upgrade Django to the most recent version (2.2.24)
     pip install --upgrade Django==2.2.24
     # Restart the service
-    /etc/cog-wsgi/8889/apachectl -k stop
+    /etc/cog-wsgi/8889/apachectl -k start
     # if CoG doesn't come up you may need to restart the httpd service as well
     systemctl restart httpd
 ```
