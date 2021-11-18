@@ -31,20 +31,20 @@ their supported data projects.
 
 ### Replica Tier-1 sites requirements
 
-- Replica management:  when original datasets are changed
+- Replica management:  when original dataset records are affected.
   - Retract replicas whose original version has been retracted. 
-  - If an original dataset is updated, but the replica has not yet been updated, for instance the data has yet to be discovered by Synda or transfer complete, the old replica should be flagged as latest=false to make clear to users.
+  - If an original dataset is updated, but the replica has not yet been updated --- for instance the data has yet to be discovered by Synda or transfer complete --- the old replica should be flagged as `latest=false` to make clear to users.
   - best effort to detect datasets that have been deleted and remove those replicas as well.
 
 - CDNOT participation
-  - Be subscribed to the CDNOT mailing list for announcement
+  - Be subscribed to the CDNOT mailing list for announcements.
   - Regular attendance at CDNOT monthly meetings.  If there is difficulty in attending, please contact the CDNOT chair so alternate arragements, eg. rescheduling the meeting can be arranged.
 
 
 ### Data Usage Metrics collection
 
-- All site hosting data nodes are required to participate in the ESGF automated reporting and collection of data usage metrics using the ESGF standard transimssion module
-  - As of ESGF v4 (Ansible installation) this module is based on Filebeat
+- All site hosting data nodes are required to participate in the ESGF automated reporting and collection of data usage metrics using the ESGF standard transimssion module.
+  - As of ESGF software stack v4 (Ansible installation) this module is based on Filebeat.
   - The site may be contacted by the ESGF Stats team if metrics are not configured and assistance in setup will be provided.
 - Site are required to have a client-side certificate signed by an ESGF CA for secure communication of metrics.
 
@@ -58,12 +58,12 @@ their supported data projects.
 - Exclusion of data nodes: There is an ongoing proposition to enable ESGF to exclude a data node that does not satisfy all the ESGF node operation requirements or a data node that will degrade the federation usability.
 - Are involved in primary data publication.
 - Provide sufficient storage and network bandwidth as required by their supported data projects.
-- Spinning disks for initial data publication according to data project requirements
-- Network connection: 1 – 2 GBit/s for data provisio
+- Spinning disks for initial data publication according to data project requirements.
+- Network connection: 1 – 2 GBit/s for data provision.
 
-- Be subscribed to CDNOT mailing list for announcements
-- Regular CDNOT meeting attendance is strongly encouraged
-- Report metrics to the central ESGF collection site (see above)
+- Be subscribed to CDNOT mailing list for announcements.
+- Regular CDNOT meeting attendance is strongly encouraged.
+- Report metrics to the central ESGF collection site (see above).
 
 
 ## Tier-3 sites
@@ -73,5 +73,5 @@ Tier-3 sites effectively provide _replicas_ of CMIP6 datasets originally publish
 ### Responsibilities for Tier-3 sites
 
 - Identify a site contact to be subscribed to the CDNOT list.
-- Documentatio to refer users to official CMIP6 information so the users have an understanding of where to find metadata, eg PIDs, citiations, ES-DOC errata.
+- Documentatio to refer users to official CMIP6 information so the users have an understanding of where to find metadata, for example: PIDs, citiations, ES-DOC errata.
 - See Replica management guidelines for Tier-1 sites.  Consider that the Tier-3 site may not use an ESGF replica index so utilties eg reference implementations that compare esg-search records across indexes (original vs replica) would not apply in these cases so it is the responsibility of the site manager to develop procedures for this. 
