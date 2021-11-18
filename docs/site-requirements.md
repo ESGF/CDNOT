@@ -41,6 +41,12 @@ their supported data projects.
   - Regular attendance at CDNOT monthly meetings.  If there is difficulty in attending, please contact the CDNOT chair so alternate arragements, eg. rescheduling the meeting can be arranged.
 
 
+### Data Usage Metrics collection
+
+- All site hosting data nodes are required to participate in the ESGF automated reporting and collection of data usage metrics using the ESGF standard transimssion module
+  - As of ESGF v4 (Ansible installation) this module is based on Filebeat
+  - The site may be contacted by the ESGF Stats team if metrics are not configured and assistance in setup will be provided.
+- Site are required to have a client-side certificate signed by an ESGF CA for secure communication of metrics.
 
 ## Tier-2 sites
 
@@ -57,6 +63,7 @@ their supported data projects.
 
 - Be subscribed to CDNOT mailing list for announcements
 - Regular CDNOT meeting attendance is strongly encouraged
+- Report metrics to the central ESGF collection site (see above)
 
 
 ## Tier-3 sites
