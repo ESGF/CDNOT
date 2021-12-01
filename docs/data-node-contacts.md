@@ -18,7 +18,8 @@
 | esgf-data.ucar.edu        | Eric Nienhouse ejn@ucar.edu                                    |                                                                                                                                 | LLNL                          |   |
 | esgf-data1.llnl.gov       | Sasha Ames ames4@llnl.gov                                      | Tony Hoang hoang1@llnl.gov                                                                                                                    | Tier-1                         |   |
 | esgf-data2.diasjp.net     | Toshihiro NEMOTO <nemoto@tkl.iis.u-tokyo.ac.jp>                       |             LLNL                  |   |
-| esgf-data3.ceda.ac.uk     | Alan Iwi (alan.iwi@stfc.ac.uk)                                 | Data transfer/Globus: Matt Pritchard (matt.pritchard.stfc.ac.uk) ; ag.stephens@stfc.ac.uk | Tier-1                         |   |
+| esgf-data3.ceda.ac.uk     | support@ceda.ac.uk                                 | | Tier-1                         |   |
+| esgf-dn1.ceda.ac.uk (for gridftp)     | support@ceda.ac.uk                     | | Tier-1                         |   |
 | esgf-node.cmcc.it         | Giuseppe Calo' (esgf@cmcc.it)                                  | Alessandra Nuzzo (alessandra.nuzzio@cmcc.it), Maria Mirto (maria.mirto@cmcc.it), Sandro Fiore (sandro.fiore@cmcc.it)                          | IPSL                          |   |
 | esgf-node2.cmcc.it        | Giuseppe Calo' (esgf@cmcc.it)                                  | Alessandra Nuzzo (alessandra.nuzzio@cmcc.it), Maria Mirto (maria.mirto@cmcc.it), Sandro Fiore (sandro.fiore@cmcc.it)                          | IPSL                          |   |
 | esgf.anl.gov              | Lukasz Lacinski (lukasz@uchicago.edu)                          |                                                                                                                                               | LLNL                          |   |
