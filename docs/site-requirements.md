@@ -20,6 +20,7 @@ Original Set of requirements.    Several ESGF sites run the stack and in those c
 - Prompt upgrade in case of detected security breaches (<7 days).
 - Contribute to maintenance and operation.
 - Run the ESGF testbed.
+- Keep up to date any necessary certificates needed for the node operation and recognition, eg. web container, Globus Gridftp, filebeat for metrics.
 - Support Tier 2 data nodes (installation, configuration, act as an index node).
 - Support data providers in publishing operations.
 - Are involved in primary data publication and data replication.
@@ -60,6 +61,7 @@ their supported data projects.
 - Provide sufficient storage and network bandwidth as required by their supported data projects.
 - Spinning disks for initial data publication according to data project requirements.
 - Network connection: 1 – 2 GBit/s for data provision.
+- Keep up to date any necessary certificates needed for the node operation and recognition, eg. web container, Globus Gridftp, filebeat for metrics.
 
 - Be subscribed to CDNOT mailing list for announcements.
 - Regular CDNOT meeting attendance is strongly encouraged.
